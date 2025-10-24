@@ -1,4 +1,4 @@
-echo "INICIO
+INICIO
     REPETIR
         IMPRIMIR \"===== GESTOR DE NOTAS ACADÉMICAS =====\"
         IMPRIMIR \"1. Registrar nuevo curso y nota\"

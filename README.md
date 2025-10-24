@@ -1,28 +1,45 @@
-# Gestor de Notas Académicas
+Gestor-de-notas-final-ingenieria
+Proyecto Final Algoritmos
 
-## Redacción del problema
-El **Gestor de Notas Académicas** es un sistema diseñado para facilitar la administración de calificaciones y cursos para estudiantes, profesores o instituciones educativas. Su objetivo principal es permitir el registro, consulta y manejo de información académica de forma rápida y sencilla, directamente desde la consola.
+Descripción general
 
-Este sistema está dirigido a personas que necesitan llevar un control básico de sus notas sin recurrir a aplicaciones complejas o bases de datos externas. Su enfoque es totalmente práctico y busca cubrir la necesidad de tener una herramienta ligera que permita visualizar el progreso académico, almacenar datos temporalmente y generar reportes simples en un entorno fácil de usar.
+El Gestor de Notas Académicas es un sistema desarrollado en Python que permite a estudiantes y docentes registrar, consultar, actualizar y analizar las calificaciones de diferentes cursos de forma sencilla.
+Su objetivo es ofrecer una herramienta práctica para el control académico, facilitando el seguimiento del rendimiento a lo largo del ciclo escolar.
 
-## Requisitos del sistema
+El programa está diseñado para ejecutarse desde consola y no requiere librerías externas. Además, implementa estructuras de datos fundamentales (listas, pilas, colas) y algoritmos de ordenamiento clásicos (burbuja e inserción), lo que lo convierte también en un excelente ejercicio educativo de programación estructurada.
 
-### Funcionales
-1. Registrar un nuevo curso y su respectiva nota.
-2. Mostrar todas las notas registradas.
-3. Calcular el promedio de las notas ingresadas.
-4. Buscar una nota específica por nombre del curso.
-5. Eliminar un curso y su nota del registro.
+Público objetivo
 
-### No funcionales
-- El sistema se ejecutará en consola usando Python.
-- No utilizará librerías externas.
-- Implementará estructuras de control como bucles y condicionales.
-- El menú principal estará diseñado en pseudocódigo antes de su implementación en Python.
+El sistema está dirigido principalmente a:
 
-## Explicación de listas, funciones y modularización
-En esta etapa se añadió:
-- **Uso de listas**: Todas las notas se almacenan en una lista para facilitar su recorrido, búsqueda y eliminación.
-- **Funciones**: Se implementaron funciones como `registrarNotas()`, `mostrarNotas()` y `eliminarCurso()` para organizar el código y evitar repeticiones.
-- **Modularización**: El menú principal llama a estas funciones, lo que hace que el programa sea más legible, mantenible y fácil de ampliar en el futuro.
+Estudiantes que desean llevar control de sus notas.
+Docentes o tutores que necesitan registrar calificaciones.
+Aprendices de programación que buscan practicar estructuras de datos y algoritmos básicos en Python.
+Objetivos del sistema
+
+Facilitar la gestión y consulta de notas académicas.
+Permitir actualización, eliminación y búsqueda de cursos.
+Implementar estructuras lógicas como pilas y colas.
+Integrar ordenamientos clásicos para mostrar las notas de forma organizada.
+Mantener una interfaz de uso sencillo y completamente funcional desde consola.
+Requisitos del sistema
+
+Requisitos funcionales
+
+Registrar un nuevo curso y su nota.
+Mostrar todas las notas registradas.
+Calcular el promedio general.
+Buscar un curso por su nombre.
+Actualizar la nota de un curso existente.
+Eliminar un curso del registro.
+Consultar el historial de acciones (Pila).
+Consultar la cola de revisiones pendientes.
+Ordenar las notas con los métodos de Burbuja e Inserción.
+Requisitos no funcionales
+
+El programa se ejecuta en consola, sin interfaz gráfica.
+Desarrollado en Python puro, sin librerías externas.
+Uso obligatorio de bucles, condicionales, funciones y estructuras de datos.
+Compatible con cualquier versión de Python 3.8 o superior.
+Código comentado y modular para facilitar su comprensión.
 

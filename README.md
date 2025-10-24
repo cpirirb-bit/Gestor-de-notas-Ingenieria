@@ -42,4 +42,3 @@ Desarrollado en Python puro, sin librerías externas.
 Uso obligatorio de bucles, condicionales, funciones y estructuras de datos.
 Compatible con cualquier versión de Python 3.8 o superior.
 Código comentado y modular para facilitar su comprensión.
-
